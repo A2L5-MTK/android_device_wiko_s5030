@@ -147,6 +147,9 @@ on post-fs-data
     # Fix permission for telephony
     chmod 0644 /proc/cmdline
 
+    # clear the sim switch flag
+    setprop persist.radio.simswitch ""
+
     chmod 0660 /data/misc/wifi/p2p_supplicant.conf
 
     #give system access to rfkill device node
