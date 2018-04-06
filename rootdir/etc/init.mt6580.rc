@@ -150,6 +150,10 @@ on post-fs-data
     # clear the sim switch flag
     setprop persist.radio.simswitch ""
 
+    # RGB
+    chmod 0660 /sys/devices/platform/mtk_disp_mgr.0/rgb
+    chown system system /sys/devices/platform/mtk_disp_mgr.0/rgb
+
     chmod 0660 /data/misc/wifi/p2p_supplicant.conf
 
     #give system access to rfkill device node
