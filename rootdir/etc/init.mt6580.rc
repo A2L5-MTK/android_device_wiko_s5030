@@ -131,8 +131,8 @@ on post-fs
     chmod 0771 /system/bin/sbchk
 
 on post-fs-data
-
-
+    # Fix permission for telephony
+    chmod 0644 /proc/cmdline
 
     chmod 0660 /data/misc/wifi/p2p_supplicant.conf
 
