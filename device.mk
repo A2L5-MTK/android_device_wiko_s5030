@@ -62,6 +62,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libion
 
+# Lights
+PRODUCT_PACKAGES += \
+    lights.mt6580
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS := $(DEVICE_PATH)/overlay
 
@@ -87,6 +91,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.wifi.direct.xml:system/etc/permissions/android.hardware.wifi.direct.xml \
     frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
+
+# Power
+PRODUCT_PACKAGES += \
+    power.mt6580
 
 # Rootdir
 PRODUCT_PACKAGES += \
