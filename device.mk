@@ -17,6 +17,9 @@
 ## Device Path
 DEVICE_PATH := device/wiko/s5030
 
+## Vendor Blobs
+$(call inherit-product, vendor/wiko/s5030/s5030-vendor.mk)
+
 # Display
 TARGET_SCREEN_HEIGHT := 854
 TARGET_SCREEN_WIDTH := 480
