@@ -58,16 +58,9 @@ on init
 # mount different fs start
 
 on charger
-    mount ext4 /dev/block/platform/mtk-msdc.0/by-name/system /system ro wait
-    mount ubifs ubi@system /system ro wait
-    #mount ubifs ...
-    start spm_script
-    start fuelgauged
-    start kpoc_charger
-    start servicemanager
-
-    # disable USB
-    write /sys/devices/platform/mt_usb/cmode 0
+    mount_all /fstab.mt6580
+    chmod 0666 /dev/kmsg
+    class_start charger
 
 on fs
     write /proc/bootprof "INIT:Mount_START"
@@ -1504,11 +1497,6 @@ service thermald /system/bin/thermald
     user system
     group system
 
-service fuelgauged /system/bin/fuelgauged
-    class main
-    user system
-    group system
-
 service sn /system/bin/sn
     class late_start
     user system
@@ -1560,8 +1548,10 @@ on property:persist.service.operamax=1
 on property:persist.service.operamax=0
     stop OperaMaxSystem
 
-service kpoc_charger /system/bin/kpoc_charger
+service charger /sbin/healthd -c
     class charger
+    critical
+    seclabel u:r:healthd:s0
 
 service sbchk /system/bin/sbchk 
     class core
