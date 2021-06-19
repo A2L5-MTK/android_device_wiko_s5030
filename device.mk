@@ -20,6 +20,10 @@ DEVICE_PATH := device/wiko/s5030
 ## Vendor Blobs
 $(call inherit-product, vendor/wiko/s5030/s5030-vendor.mk)
 
+# AAPT
+PRODUCT_AAPT_CONFIG := mdpi hdpi
+PRODUCT_AAPT_PREF_CONFIG := mdpi
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.r_submix.default \
