@@ -81,6 +81,7 @@ BOARD_RIL_CLASS := ../../../$(DEVICE_PATH)/ril
 # Shims
 LINKER_FORCED_SHIM_LIBS := \
     /system/bin/thermal|libshim_ifc.so \
+    /system/lib/libcam_utils.so|libshim_ui.so \
     /system/lib/libgui_ext.so|libshim_gui.so \
     /system/lib/libui_ext.so|libshim_ui.so \
     /system/lib/mtk-ril.so|libshim_ifc.so
