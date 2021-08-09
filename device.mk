@@ -20,3 +20,14 @@ DEVICE_PATH := device/wiko/s5030
 # Display
 TARGET_SCREEN_HEIGHT := 854
 TARGET_SCREEN_WIDTH := 480
+
+# Rootdir
+PRODUCT_PACKAGES += \
+    enableswap.sh \
+    fstab.mt6580 \
+    init.modem.rc \
+    init.mt6580.rc \
+    init.mt6580.usb.rc \
+    init.nvdata.rc \
+    init.project.rc \
+    ueventd.mt6580.rc
