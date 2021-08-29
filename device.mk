@@ -119,7 +119,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_gui \
     libshim_ifc \
-    libshim_ui
+    libshim_ui \
+    libshim_xlog
 
 # USB
 PRODUCT_PACKAGES += \
