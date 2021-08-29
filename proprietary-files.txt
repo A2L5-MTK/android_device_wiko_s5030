@@ -150,6 +150,9 @@ lib/libpq_cust.so
 lib/libpq_prot.so
 lib/libui_ext.so
 
+# Keylayouts
+usr/keylayout/mtk-kpd.kl
+
 # Media
 etc/media_codecs.xml
 
