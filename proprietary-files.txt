@@ -72,6 +72,7 @@ lib/libcam.metadata.so
 lib/libcam_mmp.so
 lib/libcam.paramsmgr.so
 lib/libcam_platform.so
+lib/libcam.sdkclient.so
 lib/libcam.utils.sensorlistener.so
 lib/libcam.utils.so
 lib/libcam_utils.so
@@ -82,6 +83,7 @@ lib/libimageio.so
 lib/libimageio_FrmB.so
 lib/libimageio_plat_drv.so
 lib/libmmsdkservice.so
+lib/libmmsdkservice.feature.so
 lib/libmtkjpeg.so
 
 # Codecs
