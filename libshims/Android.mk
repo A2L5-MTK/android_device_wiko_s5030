@@ -17,7 +17,7 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_SRC_FILES := GraphicBuffer.cpp
+LOCAL_SRC_FILES := GraphicBuffer.cpp ui_shim.cpp
 LOCAL_SHARED_LIBRARIES := libui libgui libutils libcutils
 LOCAL_MODULE := libshim_ui
 LOCAL_MODULE_TAGS := optional
