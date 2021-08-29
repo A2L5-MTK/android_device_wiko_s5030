@@ -90,6 +90,7 @@ include device/mediatek/sepolicy/sepolicy.mk
 # Shims
 LINKER_FORCED_SHIM_LIBS := \
     /system/bin/thermal|libshim_ifc.so \
+    /system/bin/thermald|libshim_ril.so \
     /system/lib/hw/hwcomposer.mt6580.so|libshim_ui.so \
     /system/lib/libcam_utils.so|libshim_ui.so \
     /system/lib/libgui_ext.so|libshim_gui.so \
