@@ -118,6 +118,7 @@ PRODUCT_PACKAGES += \
 # Shims
 PRODUCT_PACKAGES += \
     libshim_gui \
+    libshim_icu \
     libshim_ifc \
     libshim_ril \
     libshim_ui \
