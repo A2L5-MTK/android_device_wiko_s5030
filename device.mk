@@ -66,6 +66,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     lights.mt6580
 
+# Misc
+PRODUCT_PACKAGES += \
+    libstlport
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS := $(DEVICE_PATH)/overlay
 
