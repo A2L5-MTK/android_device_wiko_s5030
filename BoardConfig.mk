@@ -94,6 +94,8 @@ LINKER_FORCED_SHIM_LIBS := \
     /system/lib/libgui_ext.so|libshim_gui.so \
     /system/lib/liblog.so|libshim_xlog.so \
     /system/lib/libmtk_mmutils.so|libshim_ui.so \
+    /system/lib/librilmtk.so|libshim_ril.so \
+    /system/lib/librilmtkmd2.so|libshim_ril.so \
     /system/lib/libui_ext.so|libshim_ui.so \
     /system/lib/mtk-ril.so|libshim_ifc.so \
     /system/lib/mtk-rilmd2.so|libshim_ifc.so
