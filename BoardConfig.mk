@@ -101,6 +101,7 @@ LINKER_FORCED_SHIM_LIBS := \
     /system/lib/libcam_utils.so|libshim_ui.so \
     /system/lib/libgui_ext.so|libshim_gui.so \
     /system/lib/liblog.so|libshim_xlog.so \
+    /system/lib/libmmsdkservice.feature.so|libshim_string.so \
     /system/lib/libmmsdkservice.feature.so|libshim_ui.so \
     /system/lib/libmtk_mmutils.so|libshim_ui.so \
     /system/lib/librilmtk.so|libshim_ril.so \
