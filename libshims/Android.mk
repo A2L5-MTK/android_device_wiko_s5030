@@ -25,6 +25,14 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
+LOCAL_SRC_FILES := camera_shim.cpp
+LOCAL_SHARED_LIBRARIES := liblog libcutils libgui libbinder libutils
+LOCAL_MODULE := libshim_camera
+LOCAL_MODULE_TAGS := optional
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
 LOCAL_SRC_FILES := crypto_shim.cpp
 LOCAL_SHARED_LIBRARIES := libcrypto
 LOCAL_MODULE := libshim_crypto
