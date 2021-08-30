@@ -92,6 +92,7 @@ include device/mediatek/sepolicy/sepolicy.mk
 
 # Shims
 LINKER_FORCED_SHIM_LIBS := \
+    /system/bin/mtk_agpsd|libshim_crypto.so \
     /system/bin/mtk_agpsd|libshim_icu.so \
     /system/bin/mtk_agpsd|libshim_ssl.so \
     /system/bin/thermal|libshim_ifc.so \

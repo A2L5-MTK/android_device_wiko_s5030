@@ -121,6 +121,7 @@ PRODUCT_PACKAGES += \
 
 # Shims
 PRODUCT_PACKAGES += \
+    libshim_crypto \
     libshim_gui \
     libshim_icu \
     libshim_ifc \

@@ -25,6 +25,14 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
+LOCAL_SRC_FILES := crypto_shim.cpp
+LOCAL_SHARED_LIBRARIES := libcrypto
+LOCAL_MODULE := libshim_crypto
+LOCAL_MODULE_TAGS := optional
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
 LOCAL_SRC_FILES := gui.cpp
 LOCAL_SHARED_LIBRARIES := libui
 LOCAL_MODULE := libshim_gui
