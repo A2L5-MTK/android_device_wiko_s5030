@@ -214,3 +214,6 @@ subsystem adf
 
 #MTK In-House TEE
 /dev/ttyACM0		  0660   radio	    radio
+
+# ION
+/dev/ion                0666    system  system
