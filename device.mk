@@ -121,6 +121,7 @@ PRODUCT_PACKAGES += \
     libshim_icu \
     libshim_ifc \
     libshim_ril \
+    libshim_ssl \
     libshim_ui \
     libshim_xlog
 
