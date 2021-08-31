@@ -123,6 +123,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_camera \
     libshim_crypto \
+    libshim_gps \
     libshim_gui \
     libshim_icu \
     libshim_ifc \

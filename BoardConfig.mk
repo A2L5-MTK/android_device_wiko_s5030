@@ -104,6 +104,7 @@ LINKER_FORCED_SHIM_LIBS := \
     /system/lib/liblog.so|libshim_xlog.so \
     /system/lib/libmmsdkservice.feature.so|libshim_string.so \
     /system/lib/libmmsdkservice.feature.so|libshim_ui.so \
+    /system/lib/libmnl.so|libshim_gps.so \
     /system/lib/libmtk_mmutils.so|libshim_ui.so \
     /system/lib/librilmtk.so|libshim_ril.so \
     /system/lib/librilmtkmd2.so|libshim_ril.so \
