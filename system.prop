@@ -18,7 +18,7 @@ ro.sf.lcd_density=240
 ro.mtk_pq_support=2
 
 # RIL
-rild.libpath=mtk-ril.so
+rild.libpath=/system/lib/mtk-ril.so
 rild.libargs=-d /dev/ttyC0
 ril.external.md=0
 ril.first.md=1
