@@ -29,6 +29,9 @@ TARGET_BOOTLOADER_BOARD_NAME := mt6580
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 
+# Camera
+TARGET_HAS_LEGACY_CAMERA_HAL1 := true
+
 # Charger
 BACKLIGHT_PATH := "/sys/class/leds/lcd-backlight/brightness"
 BOARD_CHARGER_DISABLE_INIT_BLANK := true

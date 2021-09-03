@@ -6,6 +6,10 @@
 ro.camera.sound.forced=0
 ro.audio.silent=0
 
+# Camera
+media.stagefright.legacyencoder=true
+media.stagefright.less-secure=true
+
 # FRP
 ro.frp.pst=/dev/block/platform/mtk-msdc.0/11120000.MSDC0/by-name/frp
 
