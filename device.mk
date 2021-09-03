@@ -113,6 +113,7 @@ PRODUCT_PACKAGES += \
     init.mt6580.usb.rc \
     init.nvdata.rc \
     init.project.rc \
+    init.trace.rc \
     ueventd.mt6580.rc
 
 # Snap
