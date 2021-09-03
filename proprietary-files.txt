@@ -43,7 +43,9 @@ vendor/lib/hw/bluetooth.blueangel.so
 lib/hw/camera.mt6580.so
 lib/libJpgEncPipe.so
 lib/lib3a.so
-lib/libmtk_mmutils.so
+lib/libarcsoft_night_shot.so
+lib/libarcsoft_panorama_burstcapture.so
+lib/libarcsoft_wideselfie.so
 lib/libcam1_utils.so
 lib/libcam3_app.so
 lib/libcam3_hwnode.so
@@ -82,8 +84,13 @@ lib/libfeatureiodrv.so
 lib/libimageio.so
 lib/libimageio_FrmB.so
 lib/libimageio_plat_drv.so
+lib/libimageio_plat_drv_FrmB.so
 lib/libmmsdkservice.so
 lib/libmmsdkservice.feature.so
+lib/libmpo.so
+lib/libmpodecoder.so
+lib/libmpoencoder.so
+lib/libmtk_mmutils.so
 lib/libmtkjpeg.so
 
 # Codecs
